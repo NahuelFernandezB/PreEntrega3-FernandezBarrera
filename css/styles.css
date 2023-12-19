@@ -49,6 +49,8 @@ header nav ul li:hover {
     text-decoration: underline;
 }
 
+
+
 @media (min-width: 600px) {
     header {
         display: flex;
@@ -132,6 +134,9 @@ h1 {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    text-indent: 30px;
+    text-shadow: 10px 10px 10px black;
+    word-spacing: 10px;
 }
 
 
@@ -173,7 +178,7 @@ h2 {
 
 
 
-/* Menu index */
+/* Menu */
 
 .clasicas{
     background-color: rgb(191, 141, 72);
