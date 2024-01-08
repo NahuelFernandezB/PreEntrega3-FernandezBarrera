@@ -1,5 +1,59 @@
 
-.contenedor{
+.contenedor-sucursales{
     background-color: $c-brown3;
-    padding: 1rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    & .sucursal5{
+        max-width: 100%;
+    }
+
+    & .iframe-sucursal{
+        max-width: 100%;
+    }
+
+    @include MQ-tablet{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-items: center;
+        overflow: auto;
+
+        padding: 3rem;
+        gap: 2rem;
+
+
+        .sucursal5{
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+    }
+
+    @include MQ-desktop{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        .sucursal5{
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+    }
+}
+
+.sucursal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.sucursal5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }

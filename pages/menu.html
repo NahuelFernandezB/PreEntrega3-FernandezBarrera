@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Rubik+Bubbles&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>menu</title>
 
 </head>
@@ -16,7 +17,9 @@
 <body>
     <header>
 
-        <a href="../index.html"><img src="../img/logo3.jpg" alt="logo"></a>
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <a href="./index.html"><img src="../img/logo3.jpg" alt="logo"></a>
+        </div>
 
         <nav>
 
@@ -46,11 +49,12 @@
 
                 <div class="contenedor-clasicas">
 
-                    <a href="./pedidos.html"><img src="../img/clasica1.jpg" alt="Hamburguesa"></a>
-                    <a href="./pedidos.html"><img src="../img/clasica2.jpg" alt="Hamburguesa"></a>
-                    <a href="./pedidos.html"><img src="../img/clasica3.jpg" alt="Hamburguesa"></a>
-                    <a href="./pedidos.html"><img src="../img/clasica4.png" alt="Hamburguesa"></a>
-                    <a href="./pedidos.html"><img src="../img/clasica5.png" alt="Hamburguesa"></a>
+                    <div class="imagen-clasica"><a href="./pedidos.html" data-aos="zoom-out"><img
+                                src="../img/clasica1.jpg" alt="Hamburguesa"></a></div>
+                    <a href="./pedidos.html" data-aos="zoom-out"><img src="../img/clasica2.jpg" alt="Hamburguesa"></a>
+                    <a href="./pedidos.html" data-aos="zoom-out"><img src="../img/clasica3.jpg" alt="Hamburguesa"></a>
+                    <a href="./pedidos.html" data-aos="zoom-out"><img src="../img/clasica4.png" alt="Hamburguesa"></a>
+                    <a href="./pedidos.html" data-aos="zoom-out"><img src="../img/clasica5.png" alt="Hamburguesa"></a>
                 </div>
 
             </div>
@@ -63,9 +67,11 @@
 
                 <div class="contenedor-especiales">
 
-                    <a href="./pedidos.html"><img src="../img/especial1.jpg" alt="Hamburguesa"></a>
-                    <a href="./pedidos.html"><img src="../img/especial2.jpg" alt="Hamburguesa"></a>
-                </div>
+                    <a href="./pedidos.html" data-aos="zoom-out-right"><img src="../img/especial1.jpg"
+                            alt="Hamburguesa"></a>
+                    <a href="./pedidos.html" data-aos="zoom-out-left"><img src="../img/especial2.jpg"
+                            alt="Hamburguesa"></a>
+                </div>  
 
             </div>
 
@@ -75,10 +81,7 @@
                     <h2>Vegetarianas</h2>
                 </div>
 
-                <!-- <div class="contenedor-vegetarianas"> -->
-
-                <a href="./pedidos.html"><img src="../img/vegetariana1.jpg" alt="Hamburguesa"></a>
-                <!-- </div> -->
+                <a href="./pedidos.html" data-aos="zoom-out"><img src="../img/vegetariana1.jpg" alt="Hamburguesa"></a>
 
             </div>
 
@@ -90,9 +93,12 @@
 
                 <div class="contenedor-acompañamientos">
 
-                    <a href="./pedidos.html"><img src="../img/papas.png" alt="Papas fritas"></a>
-                    <a href="./pedidos.html"><img src="../img/arosdecebolla.png" alt="Aros de cebolla"></a>
-                    <a href="./pedidos.html"><img src="../img/ensalada.png" alt="Ensalada mediterranea"></a>
+                    <a href="./pedidos.html" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><img
+                            src="../img/papas.png" alt="Papas fritas"></a>
+                    <a href="./pedidos.html" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><img
+                            src="../img/arosdecebolla.png" alt="Aros de cebolla"></a>
+                    <a href="./pedidos.html" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom"><img
+                            src="../img/ensalada.png" alt="Ensalada mediterranea"></a>
                 </div>
 
             </div>
@@ -103,10 +109,11 @@
     <footer>
 
 
-        <h3><div>Buenos</div>
-            
+        <h3>
+            <div>Buenos</div>
+
             <div>Aires</div>
-            
+
             <div>Burguers</div>
         </h3>
 
@@ -122,13 +129,21 @@
 
         <div class="redes-footer">
             <ul>
-                <li><a href="https://twitter.com/home" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/home" target="_blank"><span style="color: white"><i
+                                class="fa-brands fa-x-twitter"></i></span></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><span style="color: rgb(219, 87, 109)"></style>
+                            <i class="fa-brands fa-instagram"></i></span></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><span style="color: rgb(25, 25, 155)"></style> <i
+                                class="fa-brands fa-facebook"></i></span></a></li>
             </ul>
         </div>
 
     </footer>
+    <script src="https://kit.fontawesome.com/e4cc701576.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

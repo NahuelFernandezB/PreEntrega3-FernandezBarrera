@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&family=Rubik+Bubbles&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>sucursales</title>
 
 </head>
@@ -16,7 +17,9 @@
 <body>
     <header>
 
-        <a href="../index.html"><img src="../img/logo3.jpg" alt="logo"></a>
+        <div data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
+            <a href="./index.html"><img src="../img/logo3.jpg" alt="logo"></a>
+        </div>
 
         <nav>
 
@@ -38,81 +41,129 @@
             <h1>Dónde estamos</h1>
         </div>
 
-        <section class="contenedor">
-            
-            <div class="sucursales">
+        <section class="contenedor-sucursales">
 
-                <div class="sucursal1">
-                    
-                    <div class="titulo-sucursal1">
-                        <h3>Vicente Lopez</h3>
-                    </div>
+            <div class="sucursal">
 
 
-                    <div class="img-sucursal1"><img src="../img/local1.png" alt="sucursal1"></div>
-
-                    <p class="texto-sucursal1">
-                        Dirección
-                        Whatsapp
-
-                        Hace tu pedido por Whatsapp!
-
-                        Lunes a Miercoles: 11:00 hs a 00:00hs
-                        Miercoles a Domingo: 11:00 hs a 02:00hs
-                    </p>
-
-                    <iframe class="iframe-sucursal1"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.9726575380732!2d-58.48187174885869!3d-34.52892070272901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6b479d9264d%3A0xefca216fb4194413!2sAv.%20Maip%C3%BA%2C%20Vicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700768375699!5m2!1ses-419!2sar"
-                        width="250" height="250" style="border: 0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="titulo-sucursal1">
+                    <h3>Vicente Lopez</h3>
                 </div>
 
-                <div class="sucursal2">
-                    <div class="titulo-sucursal2">
-                        <h3>Olivos</h3>
-                    </div>
 
-                    <div class="img-sucursal2"><img src="../img/local2.png" alt="sucursal2"></div>
+                <div class="img-sucursal1"><img src="../img/local1.png" alt="sucursal1"></div>
 
-                    <p class="texto-sucursal2">
-                        Dirección
-                        Whatsapp
+                <p class="texto-sucursal1">
+                <div>Dirección: Maipú 957 </div>
+                <div><span style="color: green"><i class="fa-brands fa-whatsapp"></i></span> Whatsapp: 1198642389 </div>
 
-                        Hace tu pedido por Whatsapp!
+                <div>Hacé tu pedido por Whatsapp!</div>
 
-                        Lunes a Miercoles: 11:00 hs a 00:00hs
-                        Miercoles a Domingo: 11:00 hs a 02:00hs
-                    </p>
+                <div>Lunes a Miercoles: 11:00 hs a 00:00hs</div>
+                <div>Miercoles a Domingo: 11:00 hs a 02:00hs</div>
+                </p>
 
-                    <iframe class="iframe-sucursal2"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.010288090285!2d-58.49809452505647!3d-34.50262345216491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb11042f6d121%3A0x5aff2d34c2abde7d!2sAv.%20Maip%C3%BA%2C%20B1636HHR%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700768663044!5m2!1ses-419!2sar"
-                        width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="iframe-sucursal"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.9726575380732!2d-58.48187174885869!3d-34.52892070272901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb6b479d9264d%3A0xefca216fb4194413!2sAv.%20Maip%C3%BA%2C%20Vicente%20L%C3%B3pez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700768375699!5m2!1ses-419!2sar"
+                    width="250" height="250" style="border: 0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
+            <div class="sucursal">
+                <div class="titulo-sucursal2">
+                    <h3>Olivos</h3>
                 </div>
 
-                <div class="sucursal3">
-                    <div class="titulo-sucursal3">
-                        <h3>Nuñez</h3>
-                    </div>
+                <div class="img-sucursal2"><img src="../img/local2.png" alt="sucursal2"></div>
 
-                    <div class="img-sucursal3"><img src="../img/local3a.png" alt="sucursal3"></div>
+                <p class="texto-sucursal2">
+                <div>Dirección: Maipú 2024</div>
+                <div><span style="color: green"><i class="fa-brands fa-whatsapp"></i></span> Whatsapp: 1144558325</div>
 
-                    <p class="texto-sucursal3">
-                        Dirección
-                        Whatsapp
+                <div>Hacé tu pedido por Whatsapp!</div>
 
-                        Hace tu pedido por Whatsapp!
+                <div>Lunes a Miercoles: 11:00 hs a 00:00hs</div>
+                <div>Miercoles a Domingo: 11:00 hs a 02:00hs</div>
+                </p>
 
-                        Lunes a Miercoles: 11:00 hs a 00:00hs
-                        Miercoles a Domingo: 11:00 hs a 02:00hs
-                    </p>
+                <iframe class="iframe-sucursal"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3288.010288090285!2d-58.49809452505647!3d-34.50262345216491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb11042f6d121%3A0x5aff2d34c2abde7d!2sAv.%20Maip%C3%BA%2C%20B1636HHR%20Olivos%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700768663044!5m2!1ses-419!2sar"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
 
-                    <iframe class="iframe-sucursal3"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.1667029593375!2d-58.46088536146496!3d-34.545112883960094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb426d2d71fd7%3A0x7562548e054a5f4d!2sAv.%20del%20Libertador%207456%2C%20C1429BMU%20CABA!5e0!3m2!1ses-419!2sar!4v1700768723413!5m2!1ses-419!2sar"
-                        width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="sucursal">
+                <div class="titulo-sucursal3">
+                    <h3>Nuñez</h3>
                 </div>
+
+                <div class="img-sucursal3"><img src="../img/local3a.png" alt="sucursal3"></div>
+
+                <p class="texto-sucursal3">
+                <div>Dirección: Av. del Libertador 7469</div>
+                <div><span style="color: green"><i class="fa-brands fa-whatsapp"></i></span> Whatsapp: 1123554875</div>
+
+                <div>Hacé tu pedido por Whatsapp!</div>
+
+                <div>Lunes a Miercoles: 11:00 hs a 00:00hs</div>
+                <div>Miercoles a Domingo: 11:00 hs a 02:00hs</div>
+                </p>
+
+                <iframe class="iframe-sucursal"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1643.1667029593375!2d-58.46088536146496!3d-34.545112883960094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb426d2d71fd7%3A0x7562548e054a5f4d!2sAv.%20del%20Libertador%207456%2C%20C1429BMU%20CABA!5e0!3m2!1ses-419!2sar!4v1700768723413!5m2!1ses-419!2sar"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+            <div class="sucursal">
+
+                <div class="titulo-sucursal4">
+                    <h3>Martinez</h3>
+                </div>
+
+                <div class="img-sucursal4"><img src="../img/local4.png" alt="sucursal4"></div>
+
+                <p class="texto-sucursal4">
+                <div>Dirección: Av. Fleming 1960</div>
+                <div><span style="color: green"><i class="fa-brands fa-whatsapp"></i></span> Whatsapp: 1199302087</div>
+
+                <div>Hacé tu pedido por Whatsapp!</div>
+
+                <div>Lunes a Miercoles: 11:00 hs a 00:00hs</div>
+                <div>Miercoles a Domingo: 11:00 hs a 02:00hs</div>
+                </p>
+
+                <iframe class="iframe-sucursal"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1644.0791770635333!2d-58.519441583934935!3d-34.498869500255054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0f81ad46795%3A0x56e079bd2742268f!2sAv.%20Sir%20Alexander%20Fleming%201960%2C%20B1640CSL%20Mart%C3%ADnez%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1704742237241!5m2!1ses-419!2sar"
+                    width="250" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            </div>
+
+            <div class="sucursal5">
+
+                <div class="titulo-sucursal5">
+                    <h3>Palermo</h3>
+                </div>
+
+                <div class="img-sucursal5"><img src="../img/local5.jpg" alt="sucursal5"></div>
+
+                <p class="texto-sucursal5">
+                <div>Dirección: Honduras 5965</div>
+                <div><span style="color: green"><i class="fa-brands fa-whatsapp"></i></span> Whatsapp: 1170849125</div>
+
+                <div>Hacé tu pedido por Whatsapp!</div>
+
+                <div>Lunes a Miercoles: 11:00 hs a 00:00hs</div>
+                <div>Miercoles a Domingo: 11:00 hs a 02:00hs</div>
+                </p>
+
+                <iframe class="iframe-sucursal"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1642.4356363761647!2d-58.43939623794915!3d-34.58212361160186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1704742516772!5m2!1ses-419!2sar"
+                    width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
             </div>
         </section>
 
@@ -142,13 +193,18 @@
 
         <div class="redes-footer">
             <ul>
-                <li><a href="https://twitter.com/home" target="_blank">Twitter</a></li>
-                <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
-                <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com/home" target="_blank"><span style="color: white"><i class="fa-brands fa-x-twitter"></i></span></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><span style="color: rgb(219, 87, 109)"></style> <i class="fa-brands fa-instagram"></i></span></a></li>
+                <li><a href="https://www.facebook.com" target="_blank"><span style="color: rgb(25, 25, 155)"></style> <i class="fa-brands fa-facebook"></i></span></a></li>
             </ul>
         </div>
 
     </footer>
+    <script src="https://kit.fontawesome.com/e4cc701576.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
