@@ -1,0 +1,64 @@
+$ff-quattrocento: 'Quattrocento Sans', sans-serif;
+
+$c-white: white;
+$c-black: black;
+$c-brown1: rgb(197, 168, 128);
+$c-brown2: rgb(191, 141, 72);
+$c-brown3: rgb(148, 98, 28);
+$c-brown4: rgb(110, 49, 19);
+$c-brown5: rgb(83, 46, 28);
+
+@mixin MQ-tablet {
+    @media (min-width: 768px){
+        @content;
+    }
+}
+
+@mixin MQ-tablet2 {
+    @media (min-width: 600px){
+        @content;
+    }
+}
+
+@mixin MQ-desktop {
+    @media (min-width: 1024px){
+        @content;
+    }
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: $ff-quattrocento
+
+}
+
+
+ul {
+    list-style: none
+}
+
+a {
+    text-decoration: none;
+}
+
+
+img{
+    max-width: 100%;
+    // border-radius: 5rem;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    padding:0.5rem 1rem;
+
+    &:hover{
+        background-color: white;
+        color: black;
+        transition-duration: 0.6s;
+    }
+}

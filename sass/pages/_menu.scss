@@ -1,0 +1,112 @@
+
+h1{
+    background-color: $c-brown1;
+    padding: 1rem;
+}
+
+.clasicas{
+    background-color: $c-brown2;
+
+    & a:hover{
+        scale: 1.1;
+    }
+}
+.titulo-clasicas{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+
+.contenedor-clasicas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    padding: 1.5rem;
+    gap: 2rem;
+
+    @include MQ-tablet{
+        display: grid;
+        justify-items:  center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    @include MQ-desktop{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+}
+
+.especiales{
+    background-color: $c-brown3;
+
+    & a:hover{
+        scale: 1.1;
+    }
+}
+
+.titulo-especiales{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-especiales{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 1.5rem;
+    gap: 2rem;
+
+    @include MQ-tablet{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+.vegetarianas{
+    background-color: $c-brown4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+
+    & a:hover{
+        scale: 1.1;
+    }
+}
+
+.acompañamientos{
+    background-color: $c-brown5;
+
+    & a:hover{
+        scale: 1.1;
+    }
+}
+
+.titulo-acompañamientos{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-acompañamientos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    gap: 2rem;
+
+    @include MQ-tablet{
+        display: flex;
+        flex-direction: row;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        justify-content: center;
+    }
+}

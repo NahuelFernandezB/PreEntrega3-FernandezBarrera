@@ -37,56 +37,67 @@
             <h1>Comunicate con nosotros!</h1>
         </div>
 
-        <form action="">
+        <section class="contenedor">
 
-            <div>
-                <label for="nombre-usuario">Ingrese su nombre</label>
-                <input type="text" id="nombre-usuario" placeholder="Nombre">
+            <div class="wrapper-formulario">
+
+                <img src="../img/contacto.webp" alt="Imagen de nuestro local">
+
+                <form action="" class="formulario">
+
+                    <div class="formulario__input">
+                        <label for="nombre-usuario">Ingrese su nombre</label>
+                        <input type="text" id="nombre-usuario" placeholder="Nombre">
+                    </div>
+
+                    <div class="formulario__input">
+                        <label for="apellido-usuario">Ingrese su apellido</label>
+                        <input type="text" id="apellido-usuario" placeholder="Apellido">
+                    </div>
+
+                    <div class="formulario__input">
+                        <label for="email-usuario">Ingrese su Email</label>
+                        <input type="email" id="email-usuario" placeholder="Email">
+                    </div>
+
+                    <div class="formulario__input">
+                        <label for="novedades">Desea recibir novedades?</label>
+                        <input type="checkbox" id="novedades">
+                    </div>
+
+                    <div class="formulario__input">
+                        <label for="asunto-usuario">Seleccione el asunto del mensaje</label>
+                        <select name="" id="asunto-usuario">
+                            <option value="">Postularme</option>
+                            <option value="">Recomendacion</option>
+                            <option value="">Reclamo</option>
+                            <option value="">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="formulario__text-area">
+                        <label for="texto-usuario">Ingrese su comentario o consulta</label>
+                        <textarea name="" id="texto-usuario" cols="30" rows="10" placeholder="Mensaje..."></textarea>
+                    </div>
+
+                    <div class="formulario__btn">
+                        <input type="submit" value="Enviar" class="btn">
+                    </div>
+                </form>
             </div>
-
-            <div>
-                <label for="apellido-usuario">Ingrese su apellido</label>
-                <input type="text" id="apellido-usuario" placeholder="Apellido">
-            </div>
-
-            <div>
-                <label for="email-usuario">Ingrese su Email</label>
-                <input type="email" id="email-usuario" placeholder="Email">
-            </div>
-
-            <div>
-                <label for="novedades">Desea recibir novedades?</label>
-                <input type="checkbox" id="novedades">
-            </div>
-
-            <div>
-                <label for="asunto-usuario">Seleccione el asunto del mensaje</label>
-                <select name="" id="asunto-usuario">
-                    <option value="">Postularme</option>
-                    <option value="">Recomendacion</option>
-                    <option value="">Reclamo</option>
-                    <option value="">Otro</option>
-                </select>
-            </div>
-
-            <label for="texto-usuario">Ingrese su comentario o consulta</label>
-            <textarea name="" id="texto-usuario" cols="30" rows="10"></textarea>
-
-            <div>
-                <input type="submit" value="Enviar">
-            </div>
-        </form>
+        </section>
 
     </main>
 
     <footer>
 
 
-        <h3>Buenos
-            <br>
-            Aires
-            <br>
-            Burguers
+        <h3>
+            <div>Buenos</div>
+
+            <div>Aires</div>
+
+            <div>Burguers</div>
         </h3>
 
 
