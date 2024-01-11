@@ -28,7 +28,7 @@
 }
 
 .somos-index {
-    background-color: $c-brown5;
+    background-color: $c-brown4;
     color: $c-white;
     display: flex;
     flex-direction: column;
@@ -72,5 +72,39 @@
             font-size: 1.5rem;
             text-align: start;
         }
+    }
+}
+
+.franquiciate-index {
+    display: none;
+    background-color: $c-brown5;
+    padding: 2rem;
+
+
+    & .franquiciate-wrapper {
+        border: 10px solid $c-black;
+        color: white;
+        padding: 5rem;
+        margin: 2rem;
+        border-radius: 20px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 2rem;
+    }
+
+    & .franquiciate-texto1 {
+        font-size: 50px;
+    }
+
+    & .franquiciate-texto2 {
+        font-size: 100px;
+        font-weight: 1000;
+    }
+
+    @include MQ-desktop{
+        display: block;
     }
 }
