@@ -30,6 +30,10 @@ img {
   cursor: pointer;
 }
 
+h1 {
+  font-family: "Rubik Bubbles", sans-serif;
+}
+
 footer {
   min-height: 20vh;
   background-color: black;
@@ -242,6 +246,7 @@ header nav ul {
 h1 {
   background-color: rgb(197, 168, 128);
   padding: 1rem;
+  margin: auto;
   text-align: center;
   font-size: 3rem;
 }
