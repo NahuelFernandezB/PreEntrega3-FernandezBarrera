@@ -102,42 +102,6 @@ footer h4 {
   font-size: 1.5rem;
 }
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 1rem;
-}
-@media (min-width: 600px) {
-  header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-header a {
-  color: black;
-}
-header ul li:hover {
-  cursor: pointer;
-  text-decoration: underline;
-}
-header nav ul {
-  text-align: center;
-}
-@media (min-width: 600px) {
-  header nav ul {
-    padding: 3px;
-  }
-}
-@media (min-width: 1024px) {
-  header nav ul {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-  }
-}
-
 .portada-index {
   background-color: rgb(197, 168, 128);
   padding: 1rem;
