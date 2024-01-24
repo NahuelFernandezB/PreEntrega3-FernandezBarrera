@@ -282,16 +282,8 @@ h1 {
 }
 @media (min-width: 1024px) {
   .clasicas .contenedor-clasicas {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-  .clasicas .contenedor-clasicas .imagen-clasica {
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 3;
-    object-fit: fill;
-    object-fit: cover;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
   }
 }
 
@@ -429,6 +421,8 @@ h1 {
   background-color: rgb(148, 98, 28);
   min-height: 60vh;
   padding: 2rem;
+  font-weight: bold;
+  font-size: larger;
 }
 .contenedor .wrapper-formulario {
   border: 3px solid black;
